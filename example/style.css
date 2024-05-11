@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    
+}
+
+.nav-item{
+   
+    position: sticky;
+    top: 0;
+   
+    
+}
+.navbar{
+    font-family: 'Rubik', sans-serif;
+}
+.nav-link{
+    letter-spacing: 1px;
+    font-size: 1rem;
+    color: antiquewhite;
+    
+}
+.nav-link:hover{
+    color: goldenrod;
+} 
+
+.card1{
+   overflow: hidden;
+}
+.card1 img{
+    
+    transition:all 0.1s ease-in-out
+}
+.para{
+    position: absolute;
+    margin-top:-250px;
+    text-align: center;
+    margin-left: 130px;
+    color: bisque;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.card1:hover{
+    transform: scale(1.3);
+}
+ 
+.card2{
+    box-shadow: 5px 5px 20px black;
+    overflow: hidden;
+    transition: all 0.3s;
+}
+.intro{
+    height: 200px;
+    width: 360px;
+    padding: 6px;
+    box-sizing: border-box;
+    background: rgb(27,27,27,.5);
+    color: white;
+    margin-top:-200px;
+    position: absolute;
+}
+.card2:hover{
+    transform: scale(1.15) ;
+}
+.card3{
+    width: 300px;
+    transition: all 0.3s;
+}
+.card3:hover{
+    transform: scale(1.3);
+}
+.sent{
+    font-family: 'Abel', sans-serif;
+    margin-top: 100px;
+}
+.card4{
+        box-shadow: 5px 5px 20px black;
+        overflow: hidden;
+        transition: all 0.3s;
+}
+.card4:hover{
+    transform: scale(1.15) ;
+}
